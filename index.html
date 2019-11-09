@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <section class="main_container">
+    <header class="main_header">
+      <div class="main_header--hour">
+        <span id="current_time">12:55</span>
+      </div>
+    </header>
+    <main>
+      <div class="main_content">
+        <section class="current_temperature">
+          <span id="current_temperature">35˚</span>
+        </section>
+        <section class="current_date--container">
+          <span id="current_day">seg 25/04/2019</span>
+        </section>
+        <section class="current_location--container">
+
+
+          <button class="search-value--btn hide" type="button" id="search-value" >
+            <img class="search_value--icon" src="./assets/icons/right-arrow.svg" alt=""/>
+          </button>
+          <button class="close-input hide" type="button" id="close-input">
+            <span>x</span>
+          </button>
+          <input class="input_controller hide" type="text" name="city" id="city" placeholder="Choose a city">
+          <span class="current_location_text" id="current_location">São Paulo, Brasil</span>
+          <button class="search_button" type="button" id="search-button">
+            <img class="search_icon" src="./assets/icons/search.svg" />
+          </button>
+
+
+        </section>
+        <section class="current_weather--container">
+          <div class="current_weather-content">
+            <img class="weather_icon" src="./assets/icons/raindrop1.png" alt="">
+            <span class="weather_info">15%</span>
+          </div>
+          <div class="current_weather-content">
+            <img class="weather_icon" src="./assets/icons/wind.png" alt="">
+            <span class="weather_info">20 km/h</span>
+          </div>
+          <div class="current_weather-content">
+            <img class="weather_icon custom_icon" src="./assets/icons/min&max_without_num.png" alt="">
+            <span class="current_weather-max_temp">9˚</span>
+            <span class="current_weather-min_temp">44˚</span>
+          </div>
+        </section>
+      </div>
+    </main>
+    <hr class="divider">
+    <footer id="footer">
+      <div class="wrapper_footer_content">
+        <section class="weather_forecast">
+          <div>Domingo</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/cloudy.png" alt="" />
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+        <section class="weather_forecast">
+          <div>Segunda</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/sun1.png" alt="" />
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+        <section class="weather_forecast">
+          <div>Terça</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/sun1.png" alt="" />
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+        <section class="weather_forecast">
+          <div>Quarta</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/sun1.png" alt="" />
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+        <section class="weather_forecast">
+          <div>Quinta</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/sun1.png" alt="" />
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+        <section class="weather_forecast">
+          <div>Sexta</div>
+          <div class="wf_condition">
+            <img class="weather_icon" src="./assets/icons/sun1.png" alt="" srcset="">
+          </div>
+          <div class="wf_temp">
+            <img class="weather_icon wf_temp_cs" src="./assets/icons/min&max_without_num.png" />
+            <span class="weather_forecast-max_temp">9˚</span>
+            <span class="weather_forecast-min_temp">44˚</span>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
